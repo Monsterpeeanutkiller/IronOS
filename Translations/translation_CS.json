@@ -6,31 +6,31 @@
     "SettingsCalibrationDone": "Kalibrace dokončena!",
     "SettingsCalibrationWarning": "Ujistěte se, že hrot má pokojovou teplotu!",
     "SettingsResetWarning": "Opravdu chcete resetovat zařízení do továrního nastavení?",
-    "UVLOWarningString": "Nízké DC",
+    "UVLOWarningString": "Nízké vstupní napětí",
     "UndervoltageString": "! Nízké napětí !",
     "InputVoltageString": "Napětí: ",
     "WarningTipTempString": "Teplota: ",
-    "BadTipString": "ŠP. HROT",
+    "BadTipString": "Špatný hrotT",
     "SleepingSimpleString": "Zzz ",
     "SleepingAdvancedString": "Režim spánku...",
     "WarningSimpleString": "PÁLÍ",
     "WarningAdvancedString": "!! HORKÝ HROT !!",
     "SleepingTipAdvancedString": "Hrot:",
     "IdleTipString": "Hrot:",
-    "IdleSetString": " Cíl:",
+    "IdleSetString": " Nastaveno:",
     "TipDisconnectedString": "HROT NEPŘIPOJEN",
     "SolderingAdvancedPowerPrompt": "Ohřev: ",
-    "OffString": "Vyp",
+    "OffString": "Vypnuto",
     "YourGainMessage": "Zisk:"
   },
   "messagesWarn": {
     "ResetOKMessage": "Reset OK",
-    "SettingsResetMessage": ["Tov. nas. obnov.", ""],
-    "NoAccelerometerMessage": ["No accelerometer", "detected!"],
-    "NoPowerDeliveryMessage": ["No USB-PD IC", "detected!"],
-    "LockingKeysString": " LOCKED",
-    "UnlockingKeysString": "UNLOCKED",
-    "WarningKeysLockedString": "!LOCKED!",
+    "SettingsResetMessage": ["Tov. nas. obnoveno", ""],
+    "NoAccelerometerMessage": ["Nepřítomý", "akcelerometr!"],
+    "NoPowerDeliveryMessage": ["Nepřítomný", "USB-PD IC!"],
+    "LockingKeysString": "UZAMČENO",
+    "UnlockingKeysString": "ODEMČENO",
+    "WarningKeysLockedString": "! UZAMČENO !",
     "WarningThermalRunaway": ["Thermal", "Runaway"]
   },
   "characters": {
@@ -49,37 +49,37 @@
     "SettingSensitivityLow": "L",
     "SettingSensitivityMedium": "M",
     "SettingSensitivityHigh": "H",
-    "SettingLockDisableChar": "D",
+    "SettingLockDisableChar": "V",
     "SettingLockBoostChar": "B",
-    "SettingLockFullChar": "F",
+    "SettingLockFullChar": "Z",
     "SettingNAChar": "N/A"
   },
   "menuGroups": {
     "PowerMenu": {
-      "text2": ["Power", "settings"],
-      "desc": "Power settings"
+      "text2": ["Nastavení", "vstupu"],
+      "desc": "Nastavení zdroje, výkonu..."
     },
     "SolderingMenu": {
       "text2": ["Pájecí", "nastavení"],
-      "desc": "Nastavení pájení (boost, auto start...)."
+      "desc": "teplota boost, auto start..."
     },
     "PowerSavingMenu": {
       "text2": ["Režim", "spánku"],
-      "desc": "Nastavení režimu spánku, automatického vypnutí..."
+      "desc": "teplota ve spánku, automatické vypnutí..."
     },
     "UIMenu": {
       "text2": ["Uživatelské", "rozhraní"],
-      "desc": "Nastavení uživatelského rozhraní."
+      "desc": "jednotky, podsvícení, animace..."
     },
     "AdvancedMenu": {
       "text2": ["Pokročilé", "volby"],
-      "desc": "Pokročilé volby (detailní obrazovky, kalibrace, tovární nastavení...)."
+      "desc": "kalibrace teplot a napětí, tovární nastavení..."
     }
   },
   "menuOptions": {
     "DCInCutoff": {
       "text2": ["Zdroj", "napájení"],
-      "desc": "Při nižším napětí ukončí pájení (DC=10V | ?S=?x3,3V pro LiPo, LiIon...)."
+      "desc": "Při nižším napětí ukončí pájení (DC=10V | S=3,3V pro LiPo, LiIon...)"
     },
     "SleepTemperature": {
       "text2": ["Teplota v", "r. spánku"],
@@ -87,19 +87,19 @@
     },
     "SleepTimeout": {
       "text2": ["Čas do", "r. spánku"],
-      "desc": "Čas do režimu spánku (Minut | Sekund)."
+      "desc": "Čas do režimu spánku (Minut | Sekund)"
     },
     "ShutdownTimeout": {
       "text2": ["Čas do", "vypnutí"],
-      "desc": "Čas do automatického vypnutí (Minut)."
+      "desc": "Čas do automatického vypnutí (Minut)"
     },
     "MotionSensitivity": {
       "text2": ["Citlivost", "det. pohybu"],
-      "desc": "Citlivost detekce pohybu (0=Vyp | 1=Min | ... | 9=Max)."
+      "desc": "Citlivost detekce pohybu (0=Vyp | 1=Min | ... | 9=Max)"
     },
     "TemperatureUnit": {
       "text2": ["Jednotky", "teploty"],
-      "desc": "Jednotky měření teploty (C=Celsius | F=Fahrenheit)."
+      "desc": "Jednotky měření teploty (C=Celsius | F=Fahrenheit)"
     },
     "AdvancedIdle": {
       "text2": ["Podrobnosti", "na vých. obr."],
@@ -107,11 +107,11 @@
     },
     "DisplayRotation": {
       "text2": ["Orientace", "obrazovky"],
-      "desc": "Orientace obrazovky (P=Pravák | L=Levák | A=Auto)."
+      "desc": "Orientace obrazovky (P=Pravák | L=Levák | A=Auto)"
     },
     "BoostTemperature": {
       "text2": ["Teplota v", "r. boost"],
-      "desc": "Teplota v režimu boost."
+      "desc": "Teplota v režimu boost"
     },
     "AutoStart": {
       "text2": ["Automatický", "start"],
@@ -123,15 +123,15 @@
     },
     "TemperatureCalibration": {
       "text2": ["Kalibrovat", "teplotu?"],
-      "desc": "Kalibrace měření teploty."
+      "desc": "Kalibrace měření teploty"
     },
     "SettingsReset": {
       "text2": ["Tovární", "nastavení?"],
-      "desc": "Obnovení továrního nastavení."
+      "desc": "Obnovení továrního nastavení"
     },
     "VoltageCalibration": {
       "text2": ["Kalibrovat", "vstupní napětí?"],
-      "desc": "Kalibrace vstupního napětí. Tlačítky uprav, podržením potvrď."
+      "desc": "Kalibrace vstupního napětí. Tlačítky uprav, podržením potvrď"
     },
     "AdvancedSoldering": {
       "text2": ["Podrobnosti", "při pájení"],
@@ -142,16 +142,16 @@
       "desc": "Rychlost posuvu popisků podobných tomuto (P=Pomalu | R=Rychle)"
     },
     "QCMaxVoltage": {
-      "text2": ["Výkon", "ve wattech"],
-      "desc": "Výkon použítého napájecího adaptéru ve wattech."
+      "text2": ["Výkon", "ve Wattech"],
+      "desc": "Výkon použítého napájecího adaptéru ve Wattech."
     },
     "PDNegTimeout": {
-      "text2": ["PD", "timeout"],
-      "desc": "PD negotiation timeout in 100ms steps for compatibility with some QC chargers (0: disabled)"
+      "text2": ["PD", "limit"],
+      "desc": "Časový limit PD v krocích po 100 ms pro kompatibilitu s některými nabíječkami QC (0: vypnuto)"
     },
     "PowerLimit": {
       "text2": ["Omezení", "Výkonu"],
-      "desc": "Maximální příkon (Watty)"
+      "desc": "Maximální příkon (Watt)"
     },
     "ReverseButtonTempChange": {
       "text2": ["Prohodit", "tl. +-?"],
@@ -170,24 +170,24 @@
       "desc": "Puls pro udržení zařízení v chodu (kvůli power bankám)."
     },
     "HallEffSensitivity": {
-      "text2": ["Hall Eff", "Sensitivity"],
-      "desc": "Sensitivity of the Hall effect sensor in detecting sleep (0=Vyp | 1=Min | ... | 9=Max)"
+      "text2": ["Hallův senzor", "Citlivost"],
+      "desc": "Citlivost senzoru při detekci spánku (0=Vyp | 1=Min | ... | 9=Max)"
     },
     "LockingMode": {
-      "text2": ["Allow buttons", "locking"],
-      "desc": "When soldering, long press on both buttons lock them (D=Disable | B=Boost only | F=Full locking)"
+      "text2": ["Povolit zámek", "tlačítek"],
+      "desc": "Při pájení dlouze stiskněte obě tlačítka pro uzamkčení (V=Vypnuto | B=Pouze Boost | Z=Zamknuto)"
     },
     "MinVolCell": {
-      "text2": ["Minimum", "voltage"],
-      "desc": "Minimum allowed voltage per cell (3S: 3 - 3,7V | 4-6S: 2,4 - 3,7V)"
+      "text2": ["Minimální", "proud"],
+      "desc": "Minimální povolené napětí na článek (3S: 3 - 3,7V | 4-6S: 2,4 - 3,7V)"
     },
     "AnimLoop": {
-      "text2": ["Anim.", "loop"],
-      "desc": "Loop icon animations in root menu"
+      "text2": ["Opakování", "animací"],
+      "desc": "Animace ikon ve smyčce v kořenové nabídce"
     },
     "AnimSpeed": {
-      "text2": ["Anim.", "speed"],
-      "desc": "Speed of icon animations in menu (O=off | L=low | M=medium | H=high)"
+      "text2": ["Rychlost", "animací"],
+      "desc": "Rychlost animací ikon v menu (0=vypnuto | 1=pomalé | 2=střední | 3=rychlé)"
     },
     "PowerPulseWait": {
       "text2": ["Power pulse", "wait time"],
@@ -202,12 +202,12 @@
       "desc": ""
     },
     "Brightness": {
-      "text2": ["Screen", "Brightness"],
-      "desc": "Adjust the contrast/brightness of the OLED screen"
+      "text2": ["Podsvícení", "obrazovky"],
+      "desc": "Upravte jas OLED obrazovky"
     },
     "ColourInversion": {
-      "text2": ["Screen", "Invert"],
-      "desc": "Invert the colours of the OLED screen"
+      "text2": ["Inverze", "barev"],
+      "desc": "Invertujte barvy OLED obrazovky"
     }
   }
 }
